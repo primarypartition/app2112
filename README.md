@@ -24,7 +24,7 @@ npm run dev
 http://localhost:4000/graphql
 ```
 
-# json-server
+## json-server
 
 ```
 npm run json:server
@@ -32,6 +32,26 @@ npm run json:server
 
 
 # lyrical-gql App
+
+```
+npm install
+npm install --force
+
+npm update
+npm update --force
+
+npm uninstall mongoose
+npm install mongoose
+
+npm install nodemon
+npm run dev
+
+http://localhost:4000/
+http://localhost:4000/graphql
+```
+
+
+# auth App
 
 ```
 npm install
@@ -116,6 +136,6 @@ Remember to replace <PASSWORD> with the user's actual password.
 
 9. Restart your server by running 'npm run dev' and you should see "Connected to MongoLab instance" along with a potential deprecation warning (which shouldn't effect the functionality of your app).
 
-You should now be able to successfully load your app at localhost:4000 and localhost:4000/graphql
-
+You should now be able to successfully load your 
+app at localhost:4000 and localhost:4000/graphql
 ```
